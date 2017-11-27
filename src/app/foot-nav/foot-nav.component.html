@@ -1,0 +1,16 @@
+<ul class="bg-w foot">
+  <li routerLinkActive="active" class="d-ib ta-c">
+    <i class="d-ib va-m icon-index"></i>
+    <a [routerLink]="['/index']" class="va-m">首页</a>
+  </li>
+  <li routerLinkActive="active" class="d-ib ta-c">
+    <i class="d-ib va-m icon-comments"></i>
+    <a [routerLink]="['/message']" class="va-m">消息</a>
+  </li>
+  <li routerLinkActive="active" class="d-ib ta-c">
+    <i class="d-ib va-m icon-account"></i>
+    <a [routerLink]="['/mine']" class="va-m">我的</a>
+  </li>
+</ul>
+<router-outlet></router-outlet>
+
