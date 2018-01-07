@@ -1,0 +1,49 @@
+{
+    "data":[
+        {
+            "id": 1,
+            "jobName": "前端工程师",
+            "companyName": "中国电信",
+            "city": "广州",
+            "workingAge": 3,
+            "education": "硕士",
+            "time": "11月16日",
+            "partTime": "全职",
+            "pay": 7000,
+            "logo": "./assets/img/logo/1.png",
+            "vocation": "移动互联网",
+            "financing": "3",
+            "tempt":"五险一金，项目奖项，年度旅游，月度活动"
+        },
+        {
+            "id": 2,
+            "jobName": "销售员",
+            "companyName": "东升集团",
+            "city": "北京",
+            "workingAge": 1,
+            "education": "本科",
+            "time": "11月12日",
+            "partTime": "全职",
+            "pay": 9000,
+            "logo": "./assets/img/logo/2.png",
+            "vocation": "电子商务,传媒",
+            "financing": "2",
+            "tempt": "上市公司，项目奖项，年度旅游，月度活动"
+        },
+        {
+            "id": 3,
+            "jobName": "厂库管理人员",
+            "companyName": "五角星",
+            "city": "上海",
+            "workingAge": 2,
+            "education": "本科",
+            "time": "11月13日",
+            "partTime": "兼职",
+            "pay": 5000,
+            "logo": "./assets/img/logo/3.png",
+            "vocation": "电子商务",
+            "financing": "1",
+            "tempt": "五险一金，项目奖项，年度旅游，月度活动"
+        }
+    ]
+}

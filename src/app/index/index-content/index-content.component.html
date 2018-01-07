@@ -1,0 +1,15 @@
+<div class="index-conent" >
+  <ul>
+    <li *ngFor="let ContentData of contentDatas" [routerLink]="['/details',ContentData.id]">
+      <p class="text"><span class="jobName">{{ContentData.jobName}}</span><span class="pay">{{ContentData.pay}}</span></p>
+      <p class="text"><span class="cityWageEdu">{{ContentData.city}} | {{ContentData.workingAge}}年 | {{ContentData.education}}</span><span class="time">{{ContentData.time}}</span></p>
+      <div class="logoName">
+        <img class="logo f-l" src={{ContentData.logo}} alt="">
+        <div class="f-l">
+          <p class="companyName">{{ContentData.companyName}}</p>
+          <p class="text"><span class="financing">{{ContentData.financing}} | {{ContentData.vocation}}</span></p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

@@ -3,16 +3,22 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClientModule } from '@angular/common/http';
 
 
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
-import { SearchComponent } from './search/search.component';
-import { RollPictureComponent } from './roll-picture/roll-picture.component';
+import { SearchComponent } from './index/search/search.component';
+import { RollPictureComponent } from './index/roll-picture/roll-picture.component';
+import { IndexContentComponent } from './index/index-content/index-content.component';
 import { FootNavComponent } from './foot-nav/foot-nav.component';
 import { MineComponent } from './mine/mine.component';
 import { MessageComponent } from './message/message.component';
 import { CONST_ROUTING } from './app.routing';
+import { DetailsComponent } from './details/details.component';
+import { DetailsOfficeComponent } from './details/details-office/details-office.component';
+import { JobDetailsComponent } from './details/job-details/job-details.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -24,10 +30,16 @@ import { CONST_ROUTING } from './app.routing';
     FootNavComponent,
     MineComponent,
     MessageComponent,
+    IndexContentComponent,
+    DetailsComponent,
+    DetailsOfficeComponent,
+    JobDetailsComponent,
+    LoginComponent,
   ],
   imports: [
     NgbModule.forRoot(),
     BrowserModule,
+    HttpClientModule,
     FormsModule,
     HttpModule,
     CONST_ROUTING
