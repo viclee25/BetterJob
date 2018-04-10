@@ -20,6 +20,7 @@ import { DetailsOfficeComponent } from './component/details-office/details-offic
 import { JobDetailsComponent } from './component/job-details/job-details.component';
 import { LoginComponent } from './login/login.component';
 import { ResumeComponent } from './resume/resume.component';
+import { NologinComponent } from './component/nologin/nologin.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { ResumeComponent } from './resume/resume.component';
     JobDetailsComponent,
     LoginComponent,
     ResumeComponent,
+    NologinComponent,
   ],
   imports: [
     NgbModule.forRoot(),

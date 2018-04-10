@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-login',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private location: Location,
+  ) { }
 
   ngOnInit() {
+    jQuery("app-foot-nav ul").hide()
   }
-
+  
+  back() {
+    jQuery("app-foot-nav ul").show();
+    this.location.back();
+  }
 }

@@ -1,4 +1,4 @@
-<div class="mine">
+<div class="mine" *ngIf="isLogin">
   <div class="user-info">
       <img src="{{userinfo?.userpic}}" alt="">
       <p>{{userinfo?.username}}</p>
@@ -11,3 +11,4 @@
       </ul>
     </div>
 </div>
+<app-nologin *ngIf="!isLogin"></app-nologin>

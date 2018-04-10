@@ -11,10 +11,11 @@ export class MineComponent implements OnInit {
     userpic:"./assets/img/1.png",
     username:"李吉涛"
   };
-
+  private isLogin: boolean;
   constructor() { }
 
   ngOnInit() {
+    this.isLogin = false;
   }
 
 }
