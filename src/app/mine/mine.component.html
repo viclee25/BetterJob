@@ -1,3 +1,13 @@
-<p>
-  mine works!
-</p>
+<div class="mine">
+  <div class="user-info">
+      <img src="{{userinfo?.userpic}}" alt="">
+      <p>{{userinfo?.username}}</p>
+    </div>
+    <div class="mine-content">
+      <ul class="mineMenu">
+        <li [routerLink]="['/resume']"><img src="./assets/img/resume.png" alt=""><span>简历</span></li>
+        <li><img src="./assets/img/like.png" alt=""><span>收藏</span></li>
+        <li><img src="./assets/img/set.png" alt=""><span>设置</span></li>
+      </ul>
+    </div>
+</div>
